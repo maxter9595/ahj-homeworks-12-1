@@ -95,7 +95,7 @@ module.exports = {
   devServer: {
     proxy: {
       "/api": {
-        target: process.env.API_URL || "http://localhost:3000",
+        target:  process.env.API_URL || "https://ahj-homeworks-12-1-qo14.onrender.com", 
         changeOrigin: true,
       },
     },
